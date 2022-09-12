@@ -1,0 +1,53 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up"],
+         "responses": ["Hello!", "Good to see you again!", "Hi there, how can I help?"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day"],
+         "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!"],
+         "context_set": ""
+        },
+        {"tag": "age",
+         "patterns": ["how old", "how old is SIIT", "what is your age", "", "when was SIIT established?"],
+         "responses": ["I am 30 years old!", "It has been 30 years since SIIT was established"],
+         "context_set": ""
+        },
+        {"tag": "name",
+         "patterns": ["what does SIIT stand for?", "what is SIIT?", "what is the institute's name?"],
+         "responses": ["Sirindhorn International Institute Of Technology.", "SIIT is short for Sirindhorn International Institute Of Technology"],
+         "context_set": ""
+        },
+        {"tag": "shop",
+         "patterns": ["Id like to see the courses", "whats majors are available", "what do you reccommend?", "could i get some courses recommendation?"],
+         "responses": ["We offer the following courses!", "Courses are on the catalogue!"],
+         "context_set": ""
+        },
+        {"tag": "hours",
+         "patterns": ["when are you guys open", "what are your hours", "hours of operation"],
+         "responses": ["We are open 8am-4pm Monday-Friday!"],
+         "context_set": ""
+        },
+        {"tag": "name",
+         "patterns": ["what does SIIT stand for?", "what is SIIT?", "what is the institute's name?"],
+         "responses": ["Sirindhorn International Institute Of Technology.", "SIIT is short for Sirindhorn International Institute Of Technology"],
+         "context_set": ""
+        },
+        {"tag": "location",
+         "patterns": ["where is siit located?", "Location?", "where is siit"],
+         "responses": ["SIIT is located in Pathumathani", "Pathumthani rangsit, Khlong Luang"],
+         "context_set": ""
+        },
+        {"tag": "bus",
+         "patterns": ["How is the bus schedule?", "when does the bus move?", "when will the bus arrive?"],
+         "responses": ["The bus service is available from Mon-Sat.", "The Bus service is from 8:10am-4:20pm"],
+         "context_set": ""
+        },
+        {"tag": "fees",
+         "patterns": ["how much is the tuition fees for SIIT?", "money for siit?", "how much for SIIT?"],
+         "responses": ["The fees for each semester depends on the courses taken by the student.", "Roughly it's about 80,000Baht Per Semester"],
+         "context_set": ""
+        }
+   ]
+}
